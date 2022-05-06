@@ -3,7 +3,8 @@
 #
 cmake_minimum_required (VERSION 3.8)
 
-project ("BattleShipMultiplayer")
 
+project ("BattleShipMultiplayer")
+#set_property("BattleShipMultiplayer" tgt PROPERTY CXX_STANDARD 20)
 # Включите подпроекты.
 add_subdirectory ("BattleShipMultiplayer")
