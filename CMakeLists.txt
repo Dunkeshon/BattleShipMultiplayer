@@ -7,6 +7,8 @@ cmake_minimum_required (VERSION 3.13)
 project ("BattleShipMultiplayer")
 if(MSVC)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} /std:c++17")
+else()
+message("Not msvc")
 endif(MSVC)
 # Включите подпроекты.
 add_subdirectory ("BattleShipMultiplayer")
